@@ -70,6 +70,7 @@ app.get("/", (req, res) => {
  * Fetch all profiles
  */
 app.get("/profiles", (req, res) => {
+  // This one has been done for you!
   res.json(profiles);
 });
 
